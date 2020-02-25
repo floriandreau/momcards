@@ -1,0 +1,117 @@
+/* Theme Name: My Theme Theme URI: http://localhost/css117/ Description: The first theme created by Moi. Version: 0.1 Author: Moi   Creation Theme by Moi || http://localhost/css117/   */
+html{margin: 0px !important;}
+body 
+{ 
+    font-family: Lucida Grande, Arial, Helvetica, Sans-serif; 
+    font-size: 0.8em; 
+    text-align: left; 
+    background: #ffffff; 
+    color: #006699; 
+    margin: 0; 
+}
+#page 
+{ 
+    margin: 0 auto 0 auto; 
+    width: 750px; 
+}
+
+#header 
+{ 
+    font-family: Trebuchet MS, Lucida Grande, Arial, Helvetica, Georgia, Sans-serif; 
+    float: left; 
+    background:#cccccc; 
+    width: 750px; 
+    padding: 0 10px 20px 10px; 
+}
+
+#header h1 
+{ 
+    padding: 0 20px 0 0; 
+    font-size: 2em; 
+    text-align: right; 
+}   
+
+#header p 
+{ 
+    padding: 0 20px 0 0; 
+    font-size: 1em; 
+    text-align: right; 
+}
+
+#content 
+{ 
+    float: left; 
+    width: 500px; 
+    margin-bottom: 20px; 
+}   
+
+#content h2 
+{
+    font-size: 1.3em; 
+}
+
+.postmetadata 
+{ 
+    font-size: 0.8em; 
+    color: #999; 
+}
+
+.post_content 
+{ 
+    font-size: 1em; 
+    color: #555; 
+}
+
+.sidebar 
+{ 
+    float: right; 
+    width: 225px; 
+    margin: 20px 0 20px 25px; 
+}
+
+.sidebar ul
+{ 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0 10px; 
+}
+
+.sidebar h2 
+{ font-size: 1.2em; }
+
+#footer 
+{ 
+    font-size: 1em; 
+    background:#cccccc; 
+    padding: 10px 10px 0 0; 
+    clear: both; 
+    width: 740px; 
+}
+
+#footer p
+{ 
+    text-align: right; 
+    font-size: 1em; 
+    padding: 0 10px 20px 0; 
+    margin: 0;
+}
+
+.comments-template{ margin: 10px 0 0 0; }   
+.comments-template ol{ margin: 10px; padding: 0 0 0 15px; list-style: none; }   
+.comments-template ol p{ font-family: Trebuchet MS, Arial, Hevletica, Sans-serif; font-size: 0.9em; }   
+.comments-template ol li{ margin: 10px 0 0 0; line-height: 15px; padding: 0 0 10px; }   
+.comments-template h2, .comments-template h3{ font-size: 1.2em; }   
+.commentmetadata{ font-size: 0.9em; }   
+.comments-template p.nocomments{ padding: 0; }   
+.comments-template textarea{ font-family: Trebuchet MS, Arial, Hevletica, Sans-serif; font-size: 0.9em; }   
+.cadre_commentaires { border-bottom: 1px solid #ccc; border-top: 1px solid #ccc; }
+
+
+a { color: #555; text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:hover { color: #777; text-decoration: underline; }
+
+#content h2 a{ font-size: 1.2em; font-family: Century Gothic, Lucida Grande, Verdana, Arial, Sans-Serif; color: #006699; }
+#content h2 a:hover{ color: #555; }
+
+.post_content a { color: #006699; }   .post_content a:hover { color: #fff; background: #006699; }   .sidebar a:hover { text-decoration: none; border-bottom: 1px dotted; }
